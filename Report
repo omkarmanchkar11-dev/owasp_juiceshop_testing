@@ -1,0 +1,28 @@
+# OWASP Juice Shop Assessment Report
+
+## Environment
+- macOS
+- Docker Container
+- Burp Suite Community Edition
+
+## Setup
+Installed Docker and deployed OWASP Juice Shop locally on port 3000.
+
+Configured Burp Suite proxy listener on:
+127.0.0.1:8080
+
+Configured browser proxy settings to route traffic through Burp Suite.
+
+## Testing Activities
+1. Intercepted HTTP requests
+2. Reviewed request headers
+3. Observed browser-server communication
+4. Replayed requests using Repeater
+5. Explored Juice Shop application behavior
+
+## Sample Request Observed
+GET / HTTP/1.1
+Host: localhost:3000
+
+## Outcome
+Successfully configured a local web application security testing environment and performed basic HTTP traffic analysis.
